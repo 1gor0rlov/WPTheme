@@ -1,0 +1,144 @@
+/*
+Theme Name: Blogz Theme
+Author: 1gor 0rlov
+Version: 1.0
+*/
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #111111;
+    background-color: #f8f8fa;
+}
+
+a:link,
+a:visited {
+    color: #343d46;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+
+/* Container */
+div.container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Header */
+.site-header {
+    border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 30px; 
+    border-top: 2px solid #999;
+}
+
+/* Posts */
+article.post {
+    border-bottom: 1px solid #bbbbbb;
+}
+
+article.post:last-of-type {
+    border-bottom: none;
+}
+
+/* Navigation menu */
+.site-nav ul {
+  margin-top: 10px;
+  padding: 0;
+  top: 0;
+}
+.site-nav ul:before,
+.site-nav ul:after {
+  content: "";
+  display: table;
+}
+
+.site-nav ul:after {
+  clear: both;
+}
+
+.site-nav ul {
+  *zoom: 1;
+}
+
+.site-nav ul li {
+  list-style: none;
+  float: left;
+}
+
+/* Site Header Menu */
+.site-header nav ul li {
+    float: right;
+    top: 0;
+}
+
+.site-header nav ul {
+    background-color: #1a1a1a;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+    display: block;
+    padding: 7px 15px;
+    border: 2px dotted #bbbbbb;
+    border-bottom: none;
+    border-top: none;
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.site-header nav ul li a:last-of-type {
+    border-right: none;
+}
+
+.site-header nav ul li a:hover {
+    background-color: #333333;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+    background-color: #333333;
+}
+
+/*Posts*/
+.post h2 {
+    margin-bottom: 0;
+}
+
+p.post-info {
+    font-size: 80%;
+    color: #999;
+}
+
+p.post-cat {
+    font-size: 80%;
+    font-style: italic;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
+.has-thumbnail {
+    position: relative;
+    padding-left: 200px;
+}
+
+.post-thumbnail {
+    position: absolute;
+    left: 0;
+    padding-left: 13px;
+    top: 0;
+    padding-top: 13px;
+    padding-right: 81%;
+    padding-bottom: 13px;
+}
